@@ -30,7 +30,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 
 
-
+//todo find out distance sensor name in hadware config
                 }
                 telemetry.addData("distance ","length");
                 telemetry.update();

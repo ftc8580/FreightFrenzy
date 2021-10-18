@@ -35,6 +35,8 @@ public class CDHardware {
         intakemotor = hwMap.get(DcMotor.class, "motorIntake");
         turretmotor = hwMap.get(DcMotor.class, "motorTurret");
 
+        //Todo find out Hardware config for distance sensor
+
         // Unused sensors- Switched to using motor encoder
         elevatordistancesensor = hwMap.get(DistanceSensor.class,"distance");
 
