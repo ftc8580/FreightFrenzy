@@ -8,7 +8,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 @TeleOp(name = "distance")
 
-     public class CDDestanceSensor extends LinearOpMode {
+     public class CDDistanceSensor extends LinearOpMode {
         DistanceSensor distance;
         DcMotor motor;
 
@@ -32,7 +32,7 @@ import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 
                 }
-                telemetry.addData("distance ","dist");
+                telemetry.addData("distance ","length");
                 telemetry.update();
             }
         }

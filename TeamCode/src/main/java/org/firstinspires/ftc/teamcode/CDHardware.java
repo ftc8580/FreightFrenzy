@@ -21,7 +21,7 @@ public class CDHardware {
     public DcMotor intakemotor;
     public DcMotor duckspinnermotor;
     public DistanceSensor elevatordistancesensor;
-    public
+
 
     public CDHardware (HardwareMap hwMap){
        //Defines Hardware map from Control Hub
@@ -36,7 +36,7 @@ public class CDHardware {
         turretmotor = hwMap.get(DcMotor.class, "motorTurret");
 
         // Unused sensors- Switched to using motor encoder
-        elevatordistancesensor = hwMap.get(DistanceSensor.class,"Distance");
+        elevatordistancesensor = hwMap.get(DistanceSensor.class,"distance");
 
     }
 }
