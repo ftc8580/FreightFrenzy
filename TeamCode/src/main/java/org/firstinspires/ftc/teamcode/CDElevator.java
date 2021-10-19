@@ -40,7 +40,7 @@ public class CDElevator {
         //
 
     }
-
+// Elevator power
     public void setElevatorPower(double pow) {
         robotHardware.elevatormotor.setPower(pow);
     }
